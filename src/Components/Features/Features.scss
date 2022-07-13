@@ -1,0 +1,107 @@
+.features_bg_color {
+    background-color: #65AFF4;
+    width: 100%;
+    font-family: 'poppins';
+    padding: 20px 10px;
+    margin-top: 90px;
+    padding-bottom: 50px;
+
+    h3 {
+        text-align: center;
+        font-size: 40px;
+        color: white;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
+        max-width: 864px;
+        margin: auto;
+        color: white;
+        font-weight: 500;
+    }
+
+    .nft_feature_container {
+        background-color: white;
+        border-radius: 15px;
+        padding: 30px 40px;
+        margin-top: 30px;
+        width: 100%;
+        max-width: 338px;
+        transition: all 0.5s ease;
+        cursor: pointer;
+
+        img {
+            width: 100%;
+            height: 100px;
+            object-fit: contain;
+            margin: 0 auto;
+        }
+
+        p {
+            color: black;
+            padding-top: 20px;
+            font-weight: 500;
+        }
+
+        button {
+            background-color: #0364BD;
+            padding: 7px 40px;
+            border: 1px solid #0364BD;
+            color: white;
+            border-radius: 15px;
+            font-family: 'poppins';
+            margin: 0 auto;
+            margin-top: 20px;
+            display: flex;
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+
+            &:hover{
+                background-color: white;
+                color: #0364BD;
+            }
+
+        }
+
+        .slick-list {
+            padding-bottom: 50px !important;
+        }
+
+        &:hover {
+            transform: translateY(-20px);
+            transition: all 0.5s ease-in-out;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        }
+    }
+
+    .slick-slider {
+
+        .slick-list {
+            padding-bottom: 40px;
+            text-align: center;
+        }
+
+        .slick-dots li button:before {
+            font-size: 12px !important;
+            line-height: 20px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 20px;
+            height: 20px;
+            content: '•';
+            text-align: center;
+            opacity: .25;
+            border-radius: 10px;
+            border: 1px solid white;
+            color: white;
+        }
+
+        .slick-dots li.slick-active button:before {
+            opacity: .75;
+            color: white !important;
+        }
+    }
+}

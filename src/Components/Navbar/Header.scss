@@ -1,0 +1,99 @@
+.bg_container {
+    background-image: url('../../assets/images/background-image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+
+    .navbar {
+        background: transparent !important;
+
+        .navbar-brand {
+
+            img {
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+
+        .navbar-nav {
+            margin-right: 40px;
+
+            a {
+                color: white;
+                font-size: 16px;
+                font-weight: 500;
+                margin-right: 20px;
+                font-family: 'poppins';
+            }
+
+            .nav-link.active {
+                width: fit-content;
+                color: white !important;
+                border-bottom: 2px solid white;
+            }
+        }
+
+        .navbar-nav a:hover {
+            color: white;
+        }
+
+        .sign_up {
+            background-color: white;
+            padding: 3px 10px;
+            height: 35px;
+            border: 1px solid #0364BD;
+            border-radius: 15px;
+
+            &:hover {
+                background-color: #0364BD;
+                color: white;
+            }
+        }
+    }
+
+
+}
+
+.legal_fund_container {
+    padding: 50px 65px;
+
+    h3 {
+        font-size: 65px;
+        color: white;
+        font-weight: bold;
+        font-family: 'poppins';
+    }
+
+    p {
+        font-size: 20px;
+        color: white;
+        font-family: 'poppins';
+    }
+
+    button {
+        background-color: white;
+        padding: 7px 50px;
+        border: 1px solid #0364BD;
+        border-radius: 15px;
+        font-family: 'poppins';
+
+        &:hover {
+            background-color: #0364BD;
+            color: white;
+        }
+    }
+}
+
+.Nft_image_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 900px !important;
+        max-width: 900px;
+    }
+}

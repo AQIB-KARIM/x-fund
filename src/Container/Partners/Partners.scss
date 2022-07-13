@@ -1,0 +1,52 @@
+.partners_bg_image {
+    background-image: url('../../assets/images/projects-bg.png');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'poppins';
+    padding: 60px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .partners_container {
+        padding: 40px 50px;
+
+        img {
+            width: 100%;
+            max-width: 380px;
+            object-fit: contain;
+            margin: auto;
+        }
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    .slick-slider {
+
+        .slick-dots li button:before {
+            font-size: 12px !important;
+            line-height: 20px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 20px;
+            height: 20px;
+            content: '•';
+            text-align: center;
+            opacity: .25;
+            border-radius: 10px;
+            border: 1px solid #65AFF4;
+            color: white;
+        }
+
+        .slick-dots li.slick-active button:before {
+            opacity: .75;
+            color: #65AFF4 !important;
+        }
+    }
+}

@@ -1,0 +1,477 @@
+body {
+    overflow-x: hidden;
+}
+
+
+@media(max-width: 1024px) {
+    // header and navbar
+
+    .bg_container {
+        height: auto !important;
+
+        .Nft_image_container {
+            img {
+                width: 700px !important;
+                max-width: 700px !important;
+            }
+        }
+    }
+
+    .legal_fund_container {
+        h3 {
+            font-size: 31px !important;
+            font-family: 'poppins';
+        }
+    }
+
+    .navbar-nav {
+        margin-right: 40px;
+
+        a {
+            color: white;
+            font-size: 12px !important;
+            font-weight: 500;
+            margin-right: 20px;
+            font-family: 'poppins';
+        }
+    }
+
+    .navbar-brand {
+        img {
+            max-width: 150px !important;
+        }
+    }
+
+    // Services
+
+    .nft_fund_container,
+    .crypto_currency_container,
+    .x-house_nft_container {
+        h3 {
+            font-size: 25px !important;
+        }
+    }
+
+    .x-house_nft_container p {
+        margin-top: 6px !important;
+    }
+
+    // Teams 
+    .teams_main {
+        flex-flow: wrap;
+    }
+
+    // Footer
+
+    .input_container {
+        button {
+            margin: 10px 0px !important
+        }
+    }
+
+    // Footer
+    .footer_desc {
+        p {
+            font-size: 12px !important;
+        }
+    }
+
+    footer {
+        h6 {
+            font-size: 15px !important;
+        }
+
+        ul {
+            li {
+                font-size: 12px !important;
+            }
+        }
+    }
+
+    .card {
+        width: auto !important;
+    }
+
+    // Inner Our Team
+
+    .crypto_expert {
+        text-align: center !important;
+    }
+
+    .crypto_expert_text {
+        p {
+            font-size: 12px !important;
+        }
+    }
+
+    .teams_main_card {
+        h3 {
+            font-size: 18px !important;
+        }
+
+        .teams_cards {
+            padding: 5px 30px !important;
+            max-height: 420px !important;
+
+            .teams_card_text {
+                min-height: 133px !important;
+            }
+        }
+    }
+
+
+}
+
+@media(max-width: 820px) {
+
+    .navbar{
+        button{
+            margin-top: 10px;
+            width: fit-content !important;
+        }
+    }
+
+    .bg_container {
+        height: auto !important;
+
+        .Nft_image_container {
+            img {
+                width: 700px !important;
+                max-width: 700px !important;
+            }
+        }
+    }
+
+    .legal_fund_container {
+        h3 {
+            font-size: 30px !important;
+            font-family: 'poppins';
+        }
+
+        P {
+            font-size: 15px !important;
+        }
+    }
+
+    .nft_fund_container,
+    .crypto_currency_container,
+    .x-house_nft_container {
+        h3 {
+            font-size: 18px !important;
+        }
+    }
+
+    .nft_fund_container {
+        button {
+            margin-top: 45px !important;
+        }
+    }
+
+    // Features
+
+    .nft_feature_container {
+        max-width: 290px !important;
+    }
+
+    .input_container {
+        input {
+            width: 100% !important;
+        }
+    }
+
+    // Footer
+    .footer_desc {
+        p {
+            font-size: 12px !important;
+        }
+    }
+
+    footer {
+        h6 {
+            font-size: 15px !important;
+        }
+
+        ul {
+            li {
+                font-size: 12px !important;
+            }
+        }
+    }
+
+    .card {
+        width: auto !important;
+    }
+
+    // Inner Our Team
+
+    .crypto_expert {
+        text-align: center !important;
+
+        h4 {
+            font-size: 20px !important;
+        }
+    }
+
+    .crypto_expert_text {
+        p {
+            font-size: 15px !important;
+        }
+
+    }
+
+
+    .teams_inner_main {
+        .container {
+            max-width: 100% !important;
+        }
+    }
+
+    .teams_main_card {
+        flex-flow: wrap !important;
+        justify-content: center !important;
+
+        h3 {
+            font-size: 18px !important;
+        }
+
+        .teams_cards {
+            padding: 5px 10px !important;
+            max-height: 550px !important;
+            margin-top: 90px !important;
+
+            .teams_card_text {
+                min-height: 133px !important;
+            }
+        }
+    }
+    
+    // Inner features Page
+
+    .card-title{
+        font-size: 16px !important;
+    }
+
+    .nft_btn,.crypto_btn{
+        margin-top: 0 !important;
+    }
+}
+
+@media(max-width: 768px) {
+
+    .navbar{
+        button{
+            margin-top: 10px;
+            width: fit-content !important;
+        }
+    }
+
+    // Features
+    .nft_feature_container {
+        max-width: 270px !important;
+    }
+
+
+    .input_container {
+        input {
+            width: 100% !important;
+        }
+    }
+
+    .legal_fund_container {
+        padding: 50px 35px !important;
+    }
+
+    .x-house_nft_container {
+        button {
+            position: relative;
+            bottom: 2px !important;
+        }
+    }
+
+    .card {
+        width: auto !important;
+    }
+
+    // Inner Our Team
+
+    .crypto_expert {
+        text-align: center !important;
+
+        h4 {
+            font-size: 18px !important;
+        }
+    }
+
+    .crypto_expert_text {
+        p {
+            font-size: 13px !important;
+        }
+
+    }
+
+    .teams_inner_main {
+        .container {
+            max-width: 100% !important;
+        }
+    }
+
+    .teams_main_card {
+        h3 {
+            font-size: 18px !important;
+        }
+
+        .teams_cards {
+            padding: 5px 10px !important;
+            max-height: 550px !important;
+
+            .teams_card_text {
+                min-height: 133px !important;
+            }
+        }
+    }
+
+    .nft_btn,.crypto_btn{
+        margin-top: 0 !important;
+    }
+}
+
+@media(max-width: 767px) {
+
+    .navbar{
+        button{
+            margin-top: 10px;
+            width: fit-content !important;
+        }
+    }
+
+
+    .legal_fund_container {
+        padding: 50px 45px !important;
+    }
+
+    .nft_feature_container {
+        button {
+            padding: 4px 10px !important;
+        }
+    }
+
+    .features_bg_color {
+        p {
+            font-size: 10px !important;
+        }
+    }
+
+    .services_container {
+        padding: 30px 30px;
+    }
+
+    .services_container h3 {
+        font-size: 39px !important;
+    }
+
+    .services_container p {
+        font-size: 15px !important;
+    }
+
+
+    .nft_fund_container,
+    .crypto_currency_container,
+    .x-house_nft_container {
+        border: none !important;
+    }
+
+    .nft_fund_container {
+        button {
+            margin-top: 20px !important;
+        }
+    }
+
+    .partners_bg_image {
+        h3 {
+            font-size: 30px !important;
+        }
+    }
+
+    .partners_container {
+        padding: 40px 0px !important;
+
+        img {
+            width: 100% !important;
+            max-width: 700px !important;
+            min-width: 128px !important;
+        }
+    }
+
+    .input_container {
+        padding-bottom: 10px !important;
+
+        button {
+            padding: 4px 20px;
+        }
+    }
+
+    .teams_learn_more_cotnainer {
+        button {
+            padding: 7px 20px !important;
+        }
+    }
+
+
+    .input_container {
+        input {
+            width: 100% !important;
+        }
+    }
+
+    .Card {
+        padding-bottom: 70px !important;
+    }
+
+    .card {
+        width: auto !important;
+    }
+
+    // Inner Our Team
+
+    .crypto_expert {
+        text-align: center !important;
+        border: none !important;
+
+        h4 {
+            font-size: 26px !important;
+        }
+    }
+
+    .crypto_expert_text {
+        width: 100%;
+
+        p {
+            text-align: center;
+            font-size: 13px !important;
+        }
+
+    }
+
+    .teams_inner_main {
+        .container {
+            max-width: 100% !important;
+        }
+    }
+
+    .teams_main_card {
+        h3 {
+            font-size: 18px !important;
+        }
+
+        .teams_cards {
+            padding: 5px 10px !important;
+            width: 100% !important;
+            max-height: 540px !important;
+            margin-right: 0 !important;
+
+            .teams_card_text {
+                min-height: 133px !important;
+            }
+        }
+    }
+}

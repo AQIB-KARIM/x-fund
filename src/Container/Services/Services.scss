@@ -1,0 +1,150 @@
+.services_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px 50px;
+    font-family: 'poppins';
+
+    h3 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 18px;
+        text-align: center;
+        font-weight: 400;
+    }
+}
+
+.nft_fund_container {
+    font-family: 'poppins';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    font-family: 'poppins';
+    flex-direction: column;
+    border-right: 1px solid #65AFF4;
+
+    img {
+        width: 200px;
+        height: 100px;
+        object-fit: contain;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 40px;
+        padding-top: 20px;
+    }
+
+    p {
+        text-align: center;
+        font-weight: 500;
+        max-width: 184px;
+    }
+
+    button {
+        background-color: #0364BD;
+        padding: 7px 20px;
+        border: 1px solid #0364BD;
+        color: white;
+        border-radius: 15px;
+        font-family: 'poppins';
+        margin-top: 20px;
+        transition: all .5s ease;
+        &:hover{
+            background-color: white;
+            color: #0364BD;
+        }
+    }
+}
+
+
+.crypto_currency_container {
+    font-family: 'poppins';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    font-family: 'poppins';
+    flex-direction: column;
+    border-right: 1px solid #65AFF4;
+
+    img {
+        width: 200px;
+        height: 100px;
+        object-fit: contain;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 40px;
+        padding-top: 20px;
+    }
+
+    p {
+        text-align: center;
+        font-weight: 500;
+        max-width: 250px;
+        margin-top: 7px;
+    }
+
+    button {
+        background-color: #0364BD;
+        padding: 7px 20px;
+        border: 1px solid #0364BD;
+        color: white;
+        border-radius: 15px;
+        font-family: 'poppins';
+        &:hover{
+            background-color: white;
+            color: #0364BD;
+        }
+    }
+}
+
+.x-house_nft_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    font-family: 'poppins';
+    flex-direction: column;
+
+    img {
+        width: 200px;
+        height: 100px;
+        object-fit: contain;
+    }
+
+
+    h3 {
+        text-align: center;
+        font-size: 36px;
+        padding-top: 20px;
+    }
+
+    p {
+        text-align: center;
+        font-weight: 500;
+        max-width: 250px;
+        margin-top: 13px;
+    }
+
+    button {
+        background-color: #0364BD;
+        padding: 7px 20px;
+        border: 1px solid #0364BD;
+        color: white;
+        border-radius: 15px;
+        font-family: 'poppins';
+        &:hover{
+            background-color: white;
+            color: #0364BD;
+        }
+    }
+}

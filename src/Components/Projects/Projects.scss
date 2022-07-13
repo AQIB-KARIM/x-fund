@@ -1,0 +1,105 @@
+.projects_bg_image {
+    background-image: url('../../assets/images/projects-bg.png');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'poppins';
+    padding: 60px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h3 {
+        text-align: center;
+        font-size: 40px;
+        color: black;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+        max-width: 864px;
+        color: black;
+    }
+
+    .our_projects_container {
+        width: 100%;
+        margin-top: 40px;
+        padding: 10px 10px;
+
+        img {
+            width: 100%;
+            max-width: 380px;
+            object-fit: contain;
+            margin: auto;
+        }
+    }
+
+    .projects_btn_container {
+        text-align: center;
+        padding: 50px 0px;
+
+        .slick-slide img {
+            display: block;
+            margin: 0 auto !important;
+        }
+
+        .learn_more {
+            background-color: #0364BD;
+            padding: 7px 40px;
+            border: 1px solid #0364BD;
+            color: white;
+            border-radius: 15px;
+            font-family: 'poppins';
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+        }
+
+        button {
+            &:hover {
+                background-color: white;
+                color: #0364BD;
+            }
+        }
+    }
+}
+
+.slick-next:before,
+[dir=rtl] .slick-prev:before {
+    content: "../../assets/images/arrow.png";
+    background-image: url('../../assets/images/arrow.png') !important;
+    background-repeat: no-repeat;
+    width: 40px;
+    font-size: 19px;
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+}
+
+.slick-prev:before {
+    content: "../../assets/images/arrow_back.png";
+    background-image: url('../../assets/images/arrow_back.png') !important;
+    background-repeat: no-repeat;
+    width: 40px;
+    font-size: 19px;
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+}
+
+.slick-prev {
+    left: -40px;
+}
+
+
+
+.slick-next:before,
+.slick-prev:before {
+    font-size: 20px;
+    line-height: 1;
+    opacity: 0.75;
+    color: transparent;
+}

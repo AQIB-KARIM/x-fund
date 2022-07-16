@@ -13,7 +13,9 @@
 
             img {
                 width: 100%;
+                max-width: 400px;
                 object-fit: contain;
+                z-index: 2;
             }
             
         }

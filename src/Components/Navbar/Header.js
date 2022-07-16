@@ -2,7 +2,7 @@ import React from 'react'
 import './Header.scss';
 import { Navbar, Nav, Container, Row, Col } from 'react-bootstrap';
 import NFtImage from '../../assets/images/NFT-img.png';
-import Logo from '../../assets/images/logo.png'
+import Logo from '../../assets/images/xfunds-logo.png'
 import { NavLink } from 'react-router-dom';
 
 const Header = () => {

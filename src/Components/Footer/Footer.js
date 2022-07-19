@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col,NavLink } from "react-bootstrap";
 import FooterLogo from "../../assets/images/logo.png";
 import EmailIcon from "../../assets/images/email.png";
 import LocationIcon from "../../assets/images/location.png";
@@ -7,6 +7,7 @@ import FbIcon from "../../assets/images/fb.png";
 import LinkedinIcon from "../../assets/images/linkedin.png";
 import InstaIcon from "../../assets/images/insta.png";
 import MessagenerIcon from '../../assets/images/messanger.png'
+// import { NavLink } from 'react-router-dom';
 import './Footer.scss'
 
 const Footer = () => {
@@ -36,11 +37,11 @@ const Footer = () => {
             <div className='quick_links'>
               <h6>Quick Links</h6>
               <ul>
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Terms and Condition</li>
-                <li>Privacy Policy</li>
-                <li>Contact Us</li>
+                <NavLink href='/'><li>Home</li></NavLink>
+                <NavLink href='/features'><li>Features</li></NavLink>
+                <NavLink href='/projects'><li>Our Projects</li></NavLink>
+                <NavLink href='/teams'><li>Team</li></NavLink>
+                <NavLink href='/contact'><li>Contact Us</li></NavLink>
               </ul>
             </div>
           </Col>

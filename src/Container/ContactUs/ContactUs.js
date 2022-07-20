@@ -3,7 +3,7 @@ import './ContactUs.scss';
 import BannerHeader from '../../Components/BannerHeader/BannerHeader';
 import Footer from '../../Components/Footer/Footer';
 import { Container, Col, Row } from 'react-bootstrap'
-import ContactUsLogo from '../../assets/images/contact_us.png'
+import ContactUsLogo from '../../assets/images/contact_us.webp'
 
 const ContactUs = () => {
   const [loading, setLoading] = useState(true)

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Navbar, Nav, Container, Row, Col } from 'react-bootstrap';
 import './BannerHeader.scss';
-import Logo from '../../assets/images/xfunds-logo.png'
+import Logo from '../../assets/images/xfunds-logo.webp'
 import { NavLink } from 'react-router-dom';
 
 const BannerHeader = (props) => {

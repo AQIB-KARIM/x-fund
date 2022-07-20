@@ -1,4 +1,4 @@
-import NFtFeatureLogo from '../../assets/images/nft-feature.png'
+import NFtFeatureLogo from '../../assets/images/nft-feature.webp'
 
 
 export const data =[

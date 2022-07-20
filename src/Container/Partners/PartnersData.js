@@ -1,7 +1,7 @@
-import Partner1 from '../../assets/images/partner1.png'
-import Partner2 from '../../assets/images/partner2.png'
-import Partner3 from '../../assets/images/partner3.png'
-import Partner4 from '../../assets/images/partner4.png'
+import Partner1 from '../../assets/images/partner1.webp'
+import Partner2 from '../../assets/images/partner2.webp'
+import Partner3 from '../../assets/images/partner3.webp'
+import Partner4 from '../../assets/images/partner4.webp'
 
 
 export const partnersData = [

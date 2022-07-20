@@ -3,8 +3,8 @@ import BannerHeader from '../../Components/BannerHeader/BannerHeader'
 import './OurProjects.scss'
 import Footer from '../../Components/Footer/Footer'
 import { Container, Col, Row } from 'react-bootstrap'
-import OurProject1 from '../../assets/images/priority.png'
-import OurProject2 from '../../assets/images/XHouse.jpg'
+import OurProject1 from '../../assets/images/priority.webp'
+import OurProject2 from '../../assets/images/XHouse.webp'
 
 const OurProjects = () => {
     const [loading, setLoading] = useState(true)

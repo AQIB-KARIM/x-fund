@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from 'react'
 import BannerHeader from '../../Components/BannerHeader/BannerHeader'
 import { Container, Row, Col, Card } from 'react-bootstrap'
-import StrongNftImage from '../../assets/images/services1.png'
+import StrongNftImage from '../../assets/images/services1.webp'
 import Footer from '../../Components/Footer/Footer'
 import './OurServices.scss'
-import ServiceImg1 from '../../assets/images/card1.png';
-import ServiceImg2 from '../../assets/images/card2.png';
-import ServiceImg3 from '../../assets/images/card3.png';
-import NftFundLogo from '../../assets/images/NFT-fund.png';
-import CryptoLogo from '../../assets/images/cryptocurrency.png';
-import xHouseLogo from '../../assets/images/X-house.png';
+import ServiceImg1 from '../../assets/images/card1.webp';
+import ServiceImg2 from '../../assets/images/card2.webp';
+import ServiceImg3 from '../../assets/images/card3.webp';
+import NftFundLogo from '../../assets/images/NFT-fund.webp';
+import CryptoLogo from '../../assets/images/cryptocurrency.webp';
+import xHouseLogo from '../../assets/images/X-house.webp';
 
 const OurServices = () => {
     const [loading, setLoading] = useState(true)

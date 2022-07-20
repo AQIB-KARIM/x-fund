@@ -4,8 +4,8 @@ import Footer from '../../Components/Footer/Footer';
 import './TeamsInner.scss';
 import { Container, Col, Row } from 'react-bootstrap'
 import { teamsData } from '../OurTeam/TeamsData';
-import Logo from '../../assets/images/logo.png';
-import LinkedInLogo from '../../assets/images/linkedin_official.png'
+import Logo from '../../assets/images/logo.webp';
+import LinkedInLogo from '../../assets/images/linkedin_official.webp'
 
 
 const TeamsInner = () => {

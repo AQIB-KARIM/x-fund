@@ -1,12 +1,12 @@
 import React from 'react';
 import { Container, Row, Col,NavLink } from "react-bootstrap";
-import FooterLogo from "../../assets/images/logo.png";
-import EmailIcon from "../../assets/images/email.png";
-import LocationIcon from "../../assets/images/location.png";
-import FbIcon from "../../assets/images/fb.png";
-import LinkedinIcon from "../../assets/images/linkedin.png";
-import InstaIcon from "../../assets/images/insta.png";
-import MessagenerIcon from '../../assets/images/messanger.png'
+import FooterLogo from "../../assets/images/logo.webp";
+import EmailIcon from "../../assets/images/email.webp";
+import LocationIcon from "../../assets/images/location.webp";
+import FbIcon from "../../assets/images/fb.webp";
+import LinkedinIcon from "../../assets/images/linkedin.webp";
+import InstaIcon from "../../assets/images/insta.webp";
+import MessagenerIcon from '../../assets/images/messanger.webp'
 // import { NavLink } from 'react-router-dom';
 import './Footer.scss'
 

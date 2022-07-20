@@ -1,9 +1,9 @@
 import React from 'react'
 import { Container, Col, Row } from 'react-bootstrap'
 import './Services.scss';
-import NFTlogo from '../../assets/images/NFT-fund.png'
-import cryptocurrencylogo from '../../assets/images/cryptocurrency.png'
-import Xhouselogo from '../../assets/images/X-house.png'
+import NFTlogo from '../../assets/images/NFT-fund.webp'
+import cryptocurrencylogo from '../../assets/images/cryptocurrency.webp'
+import Xhouselogo from '../../assets/images/X-house.webp'
 
 
 const Services = () => {

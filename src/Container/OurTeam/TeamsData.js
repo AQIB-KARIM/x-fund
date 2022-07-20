@@ -1,6 +1,6 @@
-import firstMemberImage from '../../assets/images/team1.png';
-import secondMemberImage from '../../assets/images/team2.png';
-import thirdMemberImage from '../../assets/images/team3.png';
+import firstMemberImage from '../../assets/images/team1.webp';
+import secondMemberImage from '../../assets/images/team2.webp';
+import thirdMemberImage from '../../assets/images/team3.webp';
 
 
 export const teamsData = [

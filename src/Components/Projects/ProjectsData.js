@@ -1,6 +1,6 @@
-import ProjectLogo1 from '../../assets/images/project1.png'
-import ProjectLogo2 from '../../assets/images/project2.png'
-import ProjectLogo3 from '../../assets/images/project3.png'
+import ProjectLogo1 from '../../assets/images/project1.webp'
+import ProjectLogo2 from '../../assets/images/project2.webp'
+import ProjectLogo3 from '../../assets/images/project3.webp'
 
 
 export const projectsData = [

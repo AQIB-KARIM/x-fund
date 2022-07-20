@@ -1,5 +1,5 @@
 .projects_bg_image {
-    background-image: url('../../assets/images/projects-bg.png');
+    background-image: url('../../assets/images/projects-bg.webp');
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -70,7 +70,7 @@
 .slick-next:before,
 [dir=rtl] .slick-prev:before {
     content: "../../assets/images/arrow.png";
-    background-image: url('../../assets/images/arrow.png') !important;
+    background-image: url('../../assets/images/arrow.webp') !important;
     background-repeat: no-repeat;
     width: 40px;
     font-size: 19px;
@@ -80,8 +80,8 @@
 }
 
 .slick-prev:before {
-    content: "../../assets/images/arrow_back.png";
-    background-image: url('../../assets/images/arrow_back.png') !important;
+    content: "../../assets/images/arrow_back.webp";
+    background-image: url('../../assets/images/arrow_back.webp') !important;
     background-repeat: no-repeat;
     width: 40px;
     font-size: 19px;

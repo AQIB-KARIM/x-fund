@@ -1,8 +1,8 @@
 import React from 'react'
 import './Header.scss';
 import { Navbar, Nav, Container, Row, Col } from 'react-bootstrap';
-import NFtImage from '../../assets/images/NFT-img.png';
-import Logo from '../../assets/images/xfunds-logo.png'
+import NFtImage from '../../assets/images/NFT-img.webp';
+import Logo from '../../assets/images/xfunds-logo.webp'
 import { NavLink } from 'react-router-dom';
 
 const Header = () => {

@@ -29,17 +29,22 @@ const BannerHeader = (props) => {
                 </Container>
             </Navbar>
 
-            <Container style={{ maxWidth: "90%" }}>
-                <Row className='justify-content-center align-items-center'>
-                    <Col md={6}>
-                        <div className='legal_fund_container'>
-                            <h3>{props.title}</h3>
-                        </div>
-                    </Col>
-                </Row>
-            </Container>
+            {
+                props.title ? (
+                    <Container style={{ maxWidth: "90%" }}>
+                        <Row className='justify-content-center align-items-center'>
+                            <Col md={6}>
+                                <div className='legal_fund_container'>
+                                    <h3>{props.title}</h3>
+                                </div>
+                            </Col>
+                        </Row>
+                    </Container>
+                )
+                : null
+            }
             
-        </div >
+        </div>
     )
 }
 

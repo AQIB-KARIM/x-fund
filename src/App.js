@@ -10,6 +10,7 @@ import {
   Routes,
   Route,
 } from 'react-router-dom';
+import ErrorPage from './Container/ErrorPage/ErrorPage';
 
 const App = () => {
 
@@ -21,6 +22,7 @@ const App = () => {
         <Route path={"/projects"} element={<OurProjects />} />
         <Route path={"/features"} element={<OurServices />} />
         <Route path={"/teams"} element={<TeamsInner />} />
+        <Route path={'*'} element={<ErrorPage />} />
       </Routes>
     </Router>
   )

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, lazy } from 'react'
+import React, { useState, useEffect } from 'react'
 import BannerHeader from '../../Components/BannerHeader/BannerHeader'
 import './OurProjects.scss'
 import Footer from '../../Components/Footer/Footer'

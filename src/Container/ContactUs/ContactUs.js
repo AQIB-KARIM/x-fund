@@ -4,6 +4,7 @@ import BannerHeader from '../../Components/BannerHeader/BannerHeader';
 import Footer from '../../Components/Footer/Footer';
 import { Container, Col, Row } from 'react-bootstrap'
 import ContactUsLogo from '../../assets/images/contact_us.webp'
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 const ContactUs = () => {
   const [loading, setLoading] = useState(true)
@@ -14,9 +15,18 @@ const ContactUs = () => {
     }, 2000);
   }, [])
 
+
   if (!loading) {
     return (
       <React.Fragment>
+
+        <HelmetProvider>
+          <Helmet>
+            <title>Contact</title>
+            <meta name='description' content='Contact X-Funds by email. Reach out if you have any questions.' />
+          </Helmet>
+        </HelmetProvider>
+
         <BannerHeader title={"Contact Us"} />
         <div className='contact_bg_img'>
 
@@ -63,6 +73,7 @@ const ContactUs = () => {
                           <button>Submit</button>
                         </div>
                       </Col>
+
                     </Row>
                   </form>
                 </Col>

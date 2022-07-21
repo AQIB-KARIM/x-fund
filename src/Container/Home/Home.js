@@ -7,6 +7,7 @@ import OurTeam from '../OurTeam/OurTeam';
 import Partners from '../Partners/Partners';
 import Footer from '../../Components/Footer/Footer';
 import './Home.scss'
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 const Home = () => {
     const [loading, setLoading] = useState(true)
@@ -17,9 +18,16 @@ const Home = () => {
         }, 2000);
     }, [])
 
+
     if (!loading) {
         return (
-            <div style={{ overflow: "hidden" }}>
+            <div className='home_main'>
+                <HelmetProvider>
+                    <Helmet>
+                        <title>X-Funds</title>
+                        <meta name='description' content='Welcome to X-Funds. Digital asset management and development. X-Funds by Finzi.' />
+                    </Helmet>
+                </HelmetProvider>
                 <Header />
                 <Services />
                 <Features />
@@ -33,7 +41,7 @@ const Home = () => {
 
     return (
         <div className='loader-container'>
-              <div className="loader" ></div>
+            <div className="loader" ></div>
         </div>
     )
 }

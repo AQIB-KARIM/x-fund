@@ -10,6 +10,7 @@ import ServiceImg3 from '../../assets/images/card3.webp';
 import NftFundLogo from '../../assets/images/NFT-fund.webp';
 import CryptoLogo from '../../assets/images/cryptocurrency.webp';
 import xHouseLogo from '../../assets/images/X-house.webp';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 const OurServices = () => {
     const [loading, setLoading] = useState(true)
@@ -22,9 +23,17 @@ const OurServices = () => {
 
 
 
-    if(!loading) {
+    if (!loading) {
         return (
             <React.Fragment>
+
+                <HelmetProvider>
+                    <Helmet>
+                        <title>Features</title>
+                        <meta name='description' content='Cryptocurrency and NFT fund. Provide services in NFT consultation and development.' />
+                    </Helmet>
+                </HelmetProvider>
+
                 <BannerHeader title={"Our Services"} />
                 <div className='services_main'>
 
@@ -119,8 +128,8 @@ const OurServices = () => {
 
     return (
         <div className='loader-container'>
-        <div className="loader" ></div>
-    </div>
+            <div className="loader" ></div>
+        </div>
     )
 
 }

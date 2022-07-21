@@ -4,11 +4,6 @@ import BannerHeader from '../../Components/BannerHeader/BannerHeader';
 import Footer from "../../Components/Footer/Footer"
 
 const ErrorPage = () => {
-
-    const goToHome = () => {
-        window.location.href = '/'
-    }
-
     return (
         <React.Fragment>
             <BannerHeader />

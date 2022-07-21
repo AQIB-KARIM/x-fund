@@ -6,6 +6,7 @@ import { Container, Col, Row } from 'react-bootstrap'
 import { teamsData } from '../OurTeam/TeamsData';
 import Logo from '../../assets/images/logo.webp';
 import LinkedInLogo from '../../assets/images/linkedin_official.webp'
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 
 const TeamsInner = () => {
@@ -20,6 +21,14 @@ const TeamsInner = () => {
     if (!loading) {
         return (
             <React.Fragment>
+                
+                <HelmetProvider>
+                    <Helmet>
+                        <title>Team</title>
+                        <meta name='description' content='X-Funds by Finzi founding team. Ozgur Dincer CEO and Marcell Veszpremi CTO.' />
+                    </Helmet>
+                </HelmetProvider>
+
                 <BannerHeader title={'Our Team'} />
                 <div className='teams_inner_main'>
                     <Container style={{ maxWidth: "70%" }}>
@@ -51,7 +60,7 @@ const TeamsInner = () => {
                                                 </div>
                                                 <div className='w-100 d-flex justify-content-center align-items-center'>
                                                     <div className='linked_in_container'>
-                                                        <img src={LinkedInLogo} alt='linked_in_logo'/>
+                                                        <img src={LinkedInLogo} alt='linked_in_logo' />
                                                     </div>
                                                 </div>
                                                 <img className='x_fund_Logo' src={Logo} width={50} height={50} alt='x-fund-logo' />
@@ -74,7 +83,7 @@ const TeamsInner = () => {
 
     return (
         <div className='loader-container'>
-             <div className="loader" ></div>
+            <div className="loader" ></div>
         </div>
     )
 }

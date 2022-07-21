@@ -12,19 +12,22 @@ import {
 } from 'react-router-dom';
 import ErrorPage from './Container/ErrorPage/ErrorPage';
 
+
 const App = () => {
 
   return (
-    <Router>
-      <Routes>
-        <Route path={"/"} element={<Home />} />
-        <Route path={"/contact"} element={<ContactUs />} />
-        <Route path={"/projects"} element={<OurProjects />} />
-        <Route path={"/features"} element={<OurServices />} />
-        <Route path={"/teams"} element={<TeamsInner />} />
-        <Route path={'*'} element={<ErrorPage />} />
-      </Routes>
-    </Router>
+    <React.Fragment>
+      <Router>
+        <Routes>
+          <Route path={"/"} element={<Home />} />
+          <Route path={"/contact"} element={<ContactUs />} />
+          <Route path={"/projects"} element={<OurProjects />} />
+          <Route path={"/features"} element={<OurServices />} />
+          <Route path={"/teams"} element={<TeamsInner />} />
+          <Route path={'*'} element={<ErrorPage />} />
+        </Routes>
+      </Router>
+    </React.Fragment>
   )
 }
 

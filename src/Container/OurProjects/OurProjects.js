@@ -5,6 +5,7 @@ import Footer from '../../Components/Footer/Footer'
 import { Container, Col, Row } from 'react-bootstrap'
 import OurProject1 from '../../assets/images/priority.webp'
 import OurProject2 from '../../assets/images/XHouse.webp'
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 const OurProjects = () => {
     const [loading, setLoading] = useState(true)
@@ -18,6 +19,14 @@ const OurProjects = () => {
     if (!loading) {
         return (
             <React.Fragment>
+                
+                <HelmetProvider>
+                    <Helmet>
+                        <title>Our Projects</title>
+                        <meta name='description' content='X-Funds Priority Card holder information. X-House by X-Funds collective limited access membership card.' />
+                    </Helmet>
+                </HelmetProvider>
+
                 <BannerHeader title={'Our Projects'} />
                 <div className='our_projects_main'>
                     <Container>
